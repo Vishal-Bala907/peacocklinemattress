@@ -39,7 +39,7 @@ export default function Hero4() {
         <Image
           width={1920}
           height={860}
-          src="/img/new/hero.png"
+          src="/img/new/hero.gif"
           alt="background"
         />
       </div>
@@ -48,7 +48,7 @@ export default function Hero4() {
         <div className="row justify-center text-center">
           <div className="col-lg-9 col-xl-8">
             <h1 data-aos="fade-up" data-aos-delay="100" className="hero__title">
-              Bharat&apos;s Trusted Cushioning
+              Bharat&apos;s Trusted Cushion
               <br className="md:d-none" />
               Manufracturing Brand
             </h1>

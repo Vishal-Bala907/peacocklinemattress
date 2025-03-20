@@ -29,7 +29,6 @@ export default function BannerSeven() {
               >
                 Booking's better on the app. Use promo code
                 <br className="lg:d-none" />
-                "TourBooking" to save!
               </p>
 
               {/* <div
