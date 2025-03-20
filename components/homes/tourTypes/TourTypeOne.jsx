@@ -14,7 +14,7 @@ export default function TourTypeOne() {
               data-aos-delay=""
               className="text-30 md:text-24"
             >
-              Popular things to do
+              Popular things to do 
             </h2>
           </div>
 
