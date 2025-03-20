@@ -7,6 +7,7 @@ import MobileMenu from "../components/MobileMenu";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { FaWhatsapp } from "react-icons/fa";
 export default function Header3() {
   const router = useRouter();
   const pageNavigate = (pageName) => {
@@ -51,11 +52,15 @@ export default function Header3() {
           <div className="header__logo">
             <Link href="/" className="header__logo">
               <Image
-                width="167"
-                height="32"
+                width="130"
+                height="27"
                 src="/img/general/logo-1.svg"
                 alt="logo icon"
                 priority
+                // style={{
+                //   width: "20%",
+                //   height: "auto",
+                // }}
               />
             </Link>
 
@@ -83,9 +88,21 @@ export default function Header3() {
               <Currency />
             </div> */}
 
-            <Link href="/help-center" className="ml-20">
-              Help
-            </Link>
+            <a
+              className="searchForm__button"
+              href="https://wa.me/917014003729"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ cursor: "pointer" }}
+            >
+              <FaWhatsapp
+                className="text-success fs-4"
+                style={{
+                  fontSize: "40px",
+                  color: "#0eff0e",
+                }}
+              />
+            </a>
 
             {/* <Link href="/register" className="ml-30">
               Sign up

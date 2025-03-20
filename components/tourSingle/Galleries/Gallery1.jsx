@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import ImageLightBox from "./ImageLightBox";
 import Image from "next/image";
+import { overview } from "@/data/overview";
 const images = [
   {
     id: 1,
@@ -21,20 +22,26 @@ const images = [
     image: `/img/tourSingle/1/4.png`,
   },
 ];
-export default function Gallery1() {
+export default function Gallery1({ id }) {
+  const obj = overview[id];
   const [activeLightBox, setActiveLightBox] = useState(false);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(1);
   return (
     <>
-      <div className="tourSingleGrid -type-1 mt-30">
-        <div className="tourSingleGrid__grid mobile-css-slider-2">
-          <Image
-            width={1155}
-            height={765}
-            src="/img/tourSingle/1/1.png"
-            alt="image"
-          />
-          <Image
+      <div className="-type-1 mt-30 tourSingleGrid">
+        <div className="mobile-css-slider-2 tourSingleGrid__grid">
+          {obj.images.map((img, idx) => {
+            return (
+              <Image
+                key={img.idx}
+                width={1155}
+                height={765}
+                src={img.image}
+                alt="image"
+              />
+            );
+          })}
+          {/* <Image
             width={765}
             height={375}
             src="/img/tourSingle/1/2.png"
@@ -51,7 +58,7 @@ export default function Gallery1() {
             height={375}
             src="/img/tourSingle/1/4.png"
             alt="image"
-          />
+          /> */}
         </div>
 
         <div className="tourSingleGrid__button">
@@ -62,7 +69,7 @@ export default function Gallery1() {
           >
             <span
               onClick={() => setActiveLightBox(true)}
-              className="button -accent-1 py-10 px-20 rounded-200 bg-dark-1 lh-16 text-white"
+              className="bg-dark-1 rounded-200 text-white -accent-1 button lh-16 px-20 py-10"
             >
               See all photos
             </span>
@@ -85,7 +92,7 @@ export default function Gallery1() {
         </div>
       </div>
       <ImageLightBox
-        images={images}
+        images={obj.images}
         activeLightBox={activeLightBox}
         setActiveLightBox={setActiveLightBox}
         currentSlideIndex={currentSlideIndex}

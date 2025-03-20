@@ -39,7 +39,7 @@ export default function Hero4() {
         <Image
           width={1920}
           height={860}
-          src="/img/new/hero.jpeg"
+          src="/img/new/hero.png"
           alt="background"
         />
       </div>
@@ -48,9 +48,9 @@ export default function Hero4() {
         <div className="row justify-center text-center">
           <div className="col-lg-9 col-xl-8">
             <h1 data-aos="fade-up" data-aos-delay="100" className="hero__title">
-              Life Is Adventure Make
+              Bharat&apos;s Trusted Cushioning
               <br className="md:d-none" />
-              Live Adventurously.
+              Manufracturing Brand
             </h1>
 
             <div
@@ -60,8 +60,8 @@ export default function Hero4() {
             >
               <div
                 ref={dropDownContainer}
-                className="d-flex flex-row align-items-center justify-content-between rounded-200 rounded-5 shadow-1 -type-1 background-white px-3 py-3"
-                style={{ backgroundColor: "white" }}
+                className="d-flex flex-row align-items-center justify-content-center rounded-5 shadow-1 -type-1 background-white px-3 py-3"
+                style={{ backgroundColor: "white", borderRadius: "20px" }}
               >
                 <div
                   className="d-flex flex-row align-items-center justify-content-between rounded-5 gap-3"
@@ -129,12 +129,12 @@ export default function Hero4() {
                   </div>
                 </div>
 
-                <div className="searchForm__button">
+                {/* <div className="searchForm__button">
                   <FaWhatsapp
                     className="text-success fs-4"
                     style={{ fontSize: "40px", color: "#0eff0e" }}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

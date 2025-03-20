@@ -343,7 +343,7 @@ export const destinationsEight = [
   {
     id: 1,
     name: "Foam Mattress",
-    imgSrc: "/img/new/top1.jpeg",
+    imgSrc: "/img/fm1.jpeg",
     tourCount: 10000,
   },
   {
@@ -361,7 +361,7 @@ export const destinationsEight = [
   {
     id: 4,
     name: "Bedsheets",
-    imgSrc: "/img/new/top1.jpeg",
+    imgSrc: "/img/bs1.jpeg",
     tourCount: 9856,
   },
 ];

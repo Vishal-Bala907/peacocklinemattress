@@ -47,9 +47,9 @@ export const tours = [
 ];
 
 export const pages = [
-  { id: 53, title: "Foam Mattress", href: "/destinations" },
-  { id: 54, title: "Spring Mattress", href: "/about" },
-  { id: 55, title: "Bounded Foam", href: "/help-center" },
-  { id: 56, title: "Memory Foam", href: "/terms" },
-  { id: 57, title: "Softy Foam", href: "/login" },
+  { id: 53, title: "Foam Mattress", href: "/tour-single-1/0" },
+  { id: 54, title: "Spring Mattress", href: "/tour-single-1/1" },
+  { id: 55, title: "Bounded Foam", href: "/tour-single-1/5" },
+  { id: 56, title: "Memory Foam", href: "/tour-single-1/6" },
+  { id: 57, title: "Softy Foam", href: "/tour-single-1/7" },
 ];

@@ -26,7 +26,7 @@ export default function MainInformation({ tour }) {
             {tour?.title.split(" ").slice(7).join(" ")}
           </h2>
 
-          <div className="row items-center pt-20 x-gap-20 y-gap-20">
+          {/* <div className="row items-center pt-20 x-gap-20 y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center">
                 <div className="d-flex pr-10 x-gap-5">
@@ -49,7 +49,7 @@ export default function MainInformation({ tour }) {
                 30K+ booked
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="col-auto">

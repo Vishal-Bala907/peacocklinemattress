@@ -14,6 +14,8 @@ import RoadMap2 from "../Roadmap2";
 import CommentBox from "../CommentBox";
 import TrendingDestinationsTwo from "@/components/homes/destinations/TrendingDestinationsTwo";
 import TestimonialsThree from "@/components/homes/testimonials/TestimonialsThree";
+import { FaWhatsapp } from "react-icons/fa";
+import { green } from "@mui/material/colors";
 
 export default function SingleOne({ tour, id }) {
   return (
@@ -21,7 +23,34 @@ export default function SingleOne({ tour, id }) {
       <section className="">
         <div className="container">
           <MainInformation tour={tour} />
-          <Gallery1 />
+          <Gallery1 id={id} />
+          <a
+            href="https://wa.me/917014003729"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="d-flex justify-content-end mt-4"
+            style={{ cursor: "pointer" }}
+          >
+            <button
+              className="flex flex-row btn btn-secondary text-white gap-4"
+              style={{
+                backgroundColor: "#2c5300 ! important",
+                width: "fit-content ! important",
+                padding: "10px 20px",
+                borderRadius: "10px",
+                gap: "20px",
+              }}
+            >
+              Send Query
+              <FaWhatsapp
+                style={{
+                  fontSize: "25px",
+                  color: "limegreen",
+                }}
+                className="ms-2"
+              />
+            </button>
+          </a>
         </div>
       </section>
 

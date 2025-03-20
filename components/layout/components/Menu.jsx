@@ -122,11 +122,11 @@ export default function Menu() {
           </div> */}
 
           <div className="desktopNav__item">
-            <Link href="/destinations">Pillows</Link>
+            <Link href="/tour-single-1/2">Pillows</Link>
           </div>
 
           <div className="desktopNav__item">
-            <a href="#">Bedsheets and Cushions</a>
+            <Link href="/tour-single-1/4">Bedsheets and Cushions</Link>
           </div>
 
           <div className="desktopNav__item">
