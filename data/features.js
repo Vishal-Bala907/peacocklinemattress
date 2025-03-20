@@ -2,26 +2,26 @@ export const features = [
   {
     id: 1,
     iconSrc: "/img/icons/1/ticket.svg",
-    title: "Ultimate flexibility",
-    text: "You're in control, with free cancellation and payment options to satisfy any plan or budget.",
+    title: " Scientifically Engineered for Comfort",
+    text: "– Our mattresses are designed using cutting-edge sleep technology.",
   },
   {
     id: 2,
     iconSrc: "/img/icons/1/hot-air-balloon.svg",
-    title: "Memorable experiences",
-    text: "Browse and book tours and activities so incredible, you'll want to tell your friends.",
+    title: "Premium Quality Materials",
+    text: "Only the best materials go into our products for durability and comfort. ",
   },
   {
     id: 3,
     iconSrc: "/img/icons/1/diamond.svg",
-    title: "Quality at our core",
-    text: "High-quality standards. Millions of reviews. A tourz company.",
+    title: "Personalized Sleep Solutions ",
+    text: "A variety of options to cater to different sleep needs",
   },
   {
     id: 4,
     iconSrc: "/img/icons/1/medal.svg",
-    title: "Award-winning support",
-    text: "New price? New plan? No problem. We're here to help, 24/7.",
+    title: "Trusted by Thousands",
+    text: " Our growing network of satisfied customers is proof of our excellence",
   },
 ];
 export const featuresFour = [

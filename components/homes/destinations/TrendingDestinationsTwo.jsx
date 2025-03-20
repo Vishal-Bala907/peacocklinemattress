@@ -5,44 +5,44 @@ import React from "react";
 
 export default function TrendingDestinationsTwo() {
   return (
-    <section className="layout-pt-xl layout-pb-xl bg-dark-1">
+    <section className="bg-dark-1 layout-pb-xl layout-pt-xl">
       <div className="container">
         <div className="row justify-between items-end y-gap-10">
           <div className="col-auto">
             <h2
               data-aos="fade-up"
               data-aos-delay=""
-              className="text-30 md:text-24 text-white"
+              className="text-30 text-white md:text-24"
             >
-              Trending Destinations
+              Trending Products
             </h2>
           </div>
 
-          <div className="col-auto">
+          {/* <div className="col-auto">
             <Link
               href={"/tour-list-1"}
               data-aos="fade-left"
               data-aos-delay=""
-              className="buttonArrow d-flex items-center text-white"
+              className="d-flex text-white buttonArrow items-center"
             >
               <span>See all</span>
-              <i className="icon-arrow-top-right text-16 ml-10"></i>
+              <i className="text-16 icon-arrow-top-right ml-10"></i>
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <div
           data-aos="fade-up"
           data-aos-delay=""
-          className="row y-gap-30 justify-between pt-40 sm:pt-20"
+          className="row justify-between pt-40 sm:pt-20 y-gap-30"
         >
           {destinationsEight.map((elm, i) => (
             <div key={i} className="col-lg-3 col-md-6">
               <Link
-                href="/tour-list-1"
-                className="featureCard -type-4 -hover-image-scale"
+                href={`/tour-single-1/${i}`}
+                className="-hover-image-scale -type-4 featureCard"
               >
-                <div className="featureCard__image ratio ratio-3:4 -hover-image-scale__image rounded-12">
+                <div className="rounded-12 -hover-image-scale__image featureCard__image ratio ratio-3:4">
                   <Image
                     width={450}
                     height={600}
@@ -52,10 +52,10 @@ export default function TrendingDestinationsTwo() {
                   />
                 </div>
 
-                <div className="featureCard__content text-center">
-                  <h4 className="text-20 fw-500 text-white">{elm.name}</h4>
-                  <div className="text-14 lh-14 text-white">
-                    {elm.tourCount}+ Tours
+                <div className="text-center featureCard__content">
+                  <h4 className="text-20 text-white fw-500">{elm.name}</h4>
+                  <div className="text-14 text-white lh-14">
+                    {elm.tourCount}+ Purchases
                   </div>
                 </div>
               </Link>

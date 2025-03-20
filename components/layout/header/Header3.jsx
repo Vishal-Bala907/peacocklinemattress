@@ -38,7 +38,7 @@ export default function Header3() {
       <header
         className={`header -type-3 js-header ${addClass ? "-is-sticky" : ""}`}
       >
-        <div className="header__container container">
+        <div className="container header__container">
           <div className="headerMobile__left">
             <button
               onClick={() => setMobileMenuOpen(true)}
@@ -67,36 +67,36 @@ export default function Header3() {
               onClick={() => pageNavigate("/tour-list-1")}
               className="d-flex"
             >
-              <i className="icon-search text-18"></i>
+              <i className="text-18 icon-search"></i>
             </button>
 
             <button
               onClick={() => pageNavigate("/login")}
               className="d-flex ml-20"
             >
-              <i className="icon-person text-18"></i>
+              <i className="text-18 icon-person"></i>
             </button>
           </div>
 
           <div className="header__right">
-            <div className="ml-30">
+            {/* <div className="ml-30">
               <Currency />
-            </div>
+            </div> */}
 
             <Link href="/help-center" className="ml-20">
               Help
             </Link>
 
-            <Link href="/register" className="ml-30">
+            {/* <Link href="/register" className="ml-30">
               Sign up
             </Link>
 
             <Link
               href="/login"
-              className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30"
+              className="rounded-200 text-dark-1 -outline-dark-1 -sm button ml-30"
             >
               Log in
-            </Link>
+            </Link> */}
           </div>
         </div>
       </header>

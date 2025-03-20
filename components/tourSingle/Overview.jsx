@@ -1,30 +1,18 @@
 import React from "react";
+import { overview } from "@/data/overview";
+export default function Overview({ id }) {
+  const obj = overview[id];
 
-export default function Overview() {
   return (
     <>
-      <h2 className="text-30">Tour Overview</h2>
-      <p className="mt-20">
-        The Phi Phi archipelago is a must-visit while in Phuket, and this
-        speedboat trip whisks you around the islands in one day. Swim over the
-        coral reefs of Pileh Lagoon, have lunch at Phi Phi Leh, snorkel at
-        Bamboo Island, and visit Monkey Beach and Maya Bay, immortalized in "The
-        Beach." Boat transfers, snacks, buffet lunch, snorkeling equipment, and
-        Phuket hotel pickup and drop-off all included.
-      </p>
+      <h2 className="text-30">{obj.heading}</h2>
+      <p className="mt-20">{obj.para}</p>
 
-      <h3 className="text-20 fw-500 mt-20">Tour Highlights</h3>
-      <ul className="ulList mt-20">
-        <li>
-          Experience the thrill of a speedboat to the stunning Phi Phi Islands
-        </li>
-        <li>Be amazed by the variety of marine life in the archepelago</li>
-        <li>
-          Enjoy relaxing in paradise with white sand beaches and azure turquoise
-          water
-        </li>
-        <li>Feel the comfort of a tour limited to 35 passengers</li>
-        <li>Catch a glimpse of the wild monkeys around Monkey Beach</li>
+      <h3 className="text-20 fw-500 mt-20">{obj.subHeding}</h3>
+      <ul className="mt-20 ulList">
+        {obj.list.map((ListItem, idx) => {
+          return <li key={idx}>{ListItem.text}</li>;
+        })}
       </ul>
     </>
   );

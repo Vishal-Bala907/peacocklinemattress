@@ -9,23 +9,23 @@ export default function FeaturesOne() {
         <div className="row">
           <div className="col-auto">
             <h2 data-aos="fade-up" className="text-30 md:text-24">
-              Why choose Tourz
+              Why Choose Peacock Line Mattress?
             </h2>
           </div>
         </div>
 
         <div
           data-aos="fade-up"
-          className="row md:x-gap-20 pt-40 sm:pt-20 mobile-css-slider -w-280"
+          className="row -w-280 md:x-gap-20 mobile-css-slider pt-40 sm:pt-20"
         >
           {features.map((elm, i) => (
             <div key={i} className="col-lg-3 col-sm-6">
-              <div className="featureIcon -type-1 pr-40 md:pr-0">
+              <div className="-type-1 featureIcon md:pr-0 pr-40">
                 <div className="featureIcon__icon">
                   <Image width={60} height={60} src={elm.iconSrc} alt="icon" />
                 </div>
 
-                <h3 className="featureIcon__title text-18 fw-500 mt-30">
+                <h3 className="text-18 featureIcon__title fw-500 mt-30">
                   {elm.title}
                 </h3>
                 <p className="featureIcon__text mt-10">{elm.text}</p>

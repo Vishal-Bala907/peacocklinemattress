@@ -3,13 +3,13 @@ export const tourData = [
     id: 1,
     imageSrc: "/img/tourCards/1/1.png",
     location: "Paris, France",
-    title: "Centipede Tour - Guided Arizona Desert Tour by ATV",
+    title: "Mattresse",
     ratingCount: 243,
     rating: 4.8,
     duration: "4 days",
     price: 189.25,
-    spead:'Steady',
-    feature:'Advanture'
+    spead: "Steady",
+    feature: "Advanture",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 225.0,
-    spead:'Grind',
-    feature:'Nature'
+    spead: "Grind",
+    feature: "Nature",
   },
   {
     id: 3,
@@ -32,8 +32,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 943.0,
-    spead:'Grind',
-    feature:'Food'
+    spead: "Grind",
+    feature: "Food",
   },
   {
     id: 4,
@@ -44,8 +44,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 771.0,
-    spead:'Furious',
-    feature:'Advanture'
+    spead: "Furious",
+    feature: "Advanture",
   },
   {
     id: 5,
@@ -56,8 +56,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 189.25,
-    spead:'Furious',
-    feature:'Food'
+    spead: "Furious",
+    feature: "Food",
   },
   {
     id: 6,
@@ -68,8 +68,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 225.0,
-    spead:'Furious',
-    feature:'Food'
+    spead: "Furious",
+    feature: "Food",
   },
   {
     id: 7,
@@ -80,8 +80,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 943.0,
-    spead:'Steady',
-    feature:'Nature'
+    spead: "Steady",
+    feature: "Nature",
   },
   {
     id: 8,
@@ -93,8 +93,8 @@ export const tourData = [
     rating: 4.8,
     duration: "4 days",
     price: 771.0,
-    spead:'Steady',
-    feature:'Food'
+    spead: "Steady",
+    feature: "Food",
   },
   // Add more tour objects here...
 ];
@@ -270,8 +270,8 @@ export const tourDataThree = [
     price: 189.25,
     lat: 40.7279707552121,
     long: -74.07152705896405,
-    spead:'Fast',
-    feature:'Advanture'
+    spead: "Fast",
+    feature: "Advanture",
   },
   {
     id: 16,
@@ -284,8 +284,8 @@ export const tourDataThree = [
     price: 225.0,
     lat: 34.1738017565271,
     long: -118.34227408812067,
-    spead:'Fast',
-    feature:'Food'
+    spead: "Fast",
+    feature: "Food",
   },
   {
     id: 17,
@@ -298,8 +298,8 @@ export const tourDataThree = [
     price: 943.0,
     lat: 29.38690953884771,
     long: -94.91651439187791,
-    spead:'Steady',
-    feature:'Advanture'
+    spead: "Steady",
+    feature: "Advanture",
   },
   {
     id: 18,
@@ -312,8 +312,8 @@ export const tourDataThree = [
     price: 189.25,
     lat: 41.62158564223682,
     long: -82.15625432727268,
-    spead:'Steady',
-    feature:'Food'
+    spead: "Steady",
+    feature: "Food",
   },
   {
     id: 19,
@@ -326,8 +326,8 @@ export const tourDataThree = [
     price: 225.0,
     lat: 39.62158564223682,
     long: -80.15625432727268,
-    spead:'Fast',
-    feature:'Advanture'
+    spead: "Fast",
+    feature: "Advanture",
   },
   {
     id: 20,
@@ -340,8 +340,8 @@ export const tourDataThree = [
     price: 943.0,
     lat: 40.7279707552121,
     long: -74.07152705896405,
-    spead:'Grind',
-    feature:'Advanture'
+    spead: "Grind",
+    feature: "Advanture",
   },
   {
     id: 21,
@@ -352,8 +352,8 @@ export const tourDataThree = [
     ratingCount: 269,
     duration: "4 days",
     price: 189.25,
-    spead:'Grind',
-    feature:'Advanture'
+    spead: "Grind",
+    feature: "Advanture",
   },
   {
     id: 22,
@@ -365,8 +365,8 @@ export const tourDataThree = [
     ratingCount: 269,
     duration: "4 days",
     price: 225.0,
-    spead:'Fast',
-    feature:'Nature'
+    spead: "Fast",
+    feature: "Nature",
   },
   {
     id: 23,
@@ -377,8 +377,8 @@ export const tourDataThree = [
     ratingCount: 269,
     duration: "4 days",
     price: 943.0,
-    spead:'Grind',
-    feature:'Advanture'
+    spead: "Grind",
+    feature: "Advanture",
   },
   {
     id: 24,
@@ -389,8 +389,8 @@ export const tourDataThree = [
     ratingCount: 269,
     duration: "4 days",
     price: 189.25,
-    spead:'Fast',
-    feature:'Nature'
+    spead: "Fast",
+    feature: "Nature",
   },
   {
     id: 25,
@@ -401,8 +401,8 @@ export const tourDataThree = [
     ratingCount: 269,
     duration: "4 days",
     price: 225.0,
-    spead:'Furious',
-    feature:'Advanture'
+    spead: "Furious",
+    feature: "Advanture",
   },
   {
     id: 26,
@@ -413,19 +413,11 @@ export const tourDataThree = [
     ratingCount: 269,
     duration: "4 days",
     price: 943.0,
-    spead:'Furious',
-    feature:'Nature'
+    spead: "Furious",
+    feature: "Nature",
   },
 ];
 
-export const filterTour = [
-  ...tourData,
-  ...tourDataThree
+export const filterTour = [...tourData, ...tourDataThree];
 
-]
-
-export const allTour = [
-  ...tourData,
-  ...tourDataTwo,
-  ...tourDataThree,
-]
+export const allTour = [...tourData, ...tourDataTwo, ...tourDataThree];

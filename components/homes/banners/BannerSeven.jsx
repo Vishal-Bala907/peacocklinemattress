@@ -3,52 +3,52 @@ import React from "react";
 
 export default function BannerSeven() {
   return (
-    <section className="cta -type-3">
+    <section className="-type-3 cta">
       <div className="cta__bg">
         <Image src="/img/cta/6/bg.jpg" width={1920} height={500} alt="image" />
       </div>
 
       <div className="container">
         <div className="row justify-between">
-          <div className="col-xl-5 col-lg-6">
+          <div className="col-lg-6 col-xl-5">
             <div className="cta__content">
               <h2
                 data-aos="fade-up"
                 data-aos-delay=""
-                className="text-40 md:text-24 lh-13 text-white"
+                className="text-40 text-white lh-13 md:text-24"
               >
-                Get 5% off your 1st
+                Get 10% off your 1st
                 <br className="lg:d-none" />
-                app booking
+                Order
               </h2>
 
               <p
                 data-aos="fade-right"
                 data-aos-delay=""
-                className="mt-10 text-white"
+                className="text-white mt-10"
               >
                 Booking's better on the app. Use promo code
                 <br className="lg:d-none" />
                 "TourBooking" to save!
               </p>
 
-              <div
+              {/* <div
                 data-aos="fade-up"
                 data-aos-delay=""
-                className="text-18 text-white mt-40 md:mt-20"
+                className="text-18 text-white md:mt-20 mt-40"
               >
                 Get a magic link sent to your email
-              </div>
+              </div> */}
 
               <div data-aos="fade-up" data-aos-delay="" className="mt-10">
-                <div className="singleInput -type-2 row x-gap-10 y-gap-10">
-                  <div className="col-md-auto col-12">
+                <div className="row -type-2 singleInput x-gap-10 y-gap-10">
+                  <div className="col-12 col-md-auto">
                     <input type="email" placeholder="Email" className="" />
                   </div>
-                  <div className="col-md-auto col-12">
-                    <button className="button -md -dark-1 bg-white col-12 text-accent-2">
+                  <div className="col-12 col-md-auto">
+                    <button className="col-12 bg-white text-accent-2 -dark-1 -md button">
                       Send
-                      <i className="icon-arrow-top-right ml-10 text-16"></i>
+                      <i className="text-16 icon-arrow-top-right ml-10"></i>
                     </button>
                   </div>
                 </div>

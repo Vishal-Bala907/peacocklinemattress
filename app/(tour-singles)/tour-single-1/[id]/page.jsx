@@ -22,8 +22,8 @@ export default function page({ params }) {
         <Header1 />
         <PageHeader />
 
-        <SingleOne tour={tour} />
-        <TourSlider />
+        <SingleOne tour={tour} id={id} />
+        {/* <TourSlider /> */}
         <FooterOne />
       </main>
     </>

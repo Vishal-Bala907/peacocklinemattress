@@ -24,12 +24,15 @@ export default function page() {
         <Hero4 />
         <PopulerDestinations />
         <FeaturesOne />
-        <div className="mt-50">
+        {/* <div className="mt-50">
           <FeaturedToures />
+        </div> */}
+
+        <div className="mt-50">
+          <TrendingDestinationsTwo />
         </div>
-        <TrendingDestinationsTwo />
         <TestimonialsThree />
-        <ArticlesOne />
+        {/* <ArticlesOne /> */}
         <BannerSeven />
         <FooterFour />
       </main>

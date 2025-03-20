@@ -12,8 +12,10 @@ import Gallery1 from "../Galleries/Gallery1";
 import DateCalender from "../DateCalender";
 import RoadMap2 from "../Roadmap2";
 import CommentBox from "../CommentBox";
+import TrendingDestinationsTwo from "@/components/homes/destinations/TrendingDestinationsTwo";
+import TestimonialsThree from "@/components/homes/testimonials/TestimonialsThree";
 
-export default function SingleOne({ tour }) {
+export default function SingleOne({ tour, id }) {
   return (
     <>
       <section className="">
@@ -23,71 +25,73 @@ export default function SingleOne({ tour }) {
         </div>
       </section>
 
-      <section className="layout-pt-md js-pin-container">
+      <section className="js-pin-container layout-pt-md">
         <div className="container">
-          <div className="row y-gap-30 justify-between">
+          <div className="row justify-between y-gap-30">
             <div className="col-lg-8">
-              <div className="row y-gap-20 justify-between items-center layout-pb-md">
-                <OthersInformation />
+              <div className="row justify-between items-center layout-pb-md y-gap-20">
+                {/* <OthersInformation /> */}
               </div>
 
-              <Overview />
+              <Overview id={id} />
 
-              <div className="line mt-60 mb-60"></div>
+              <div className="line mb-60 mt-60"></div>
 
               <h2 className="text-30">What's included</h2>
 
               <Included />
 
-              <div className="line mt-60 mb-60"></div>
+              <div className="line mb-60 mt-60"></div>
 
-              <h2 className="text-30">Itinerary</h2>
+              {/* <h2 className="text-30">Itinerary</h2>
 
-              <RoadMap2 />
-
-              <h2 className="text-30 mt-60 mb-30">Tour Map</h2>
+              <RoadMap2 /> */}
+              {/* 
+              <h2 className="text-30 mb-30 mt-60">Tour Map</h2>
               <div className="mapTourSingle">
                 <Map />
-              </div>
+              </div> */}
 
-              <div className="line mt-60 mb-60"></div>
+              {/* <div className="line mb-60 mt-60"></div>
 
               <h2 className="text-30">Availability Calendar</h2>
-              <DateCalender />
+              <DateCalender /> */}
 
-              <div className="line mt-60 mb-60"></div>
+              <div className="line mb-60 mt-60"></div>
 
               <h2 className="text-30">FAQ</h2>
 
-              <div className="accordion -simple row y-gap-20 mt-30 js-accordion">
+              <div className="row -simple accordion js-accordion mt-30 y-gap-20">
                 <Faq />
               </div>
 
-              <div className="line mt-60 mb-60"></div>
+              <div className="line mb-60 mt-60"></div>
 
               <h2 className="text-30">Customer Reviews</h2>
 
-              <div className="mt-30">
-                <Rating />
-              </div>
+              <div className="mt-30">{/* <Rating /> */}</div>
 
-              <Reviews />
+              {/* <Reviews /> */}
+              {/* <div className="mt-50">
+                <TrendingDestinationsTwo />
+              </div> */}
 
-              <button className="button -md -outline-accent-1 text-accent-1 mt-30">
+              {/* <button className="text-accent-1 -md -outline-accent-1 button mt-30">
                 See more reviews
-                <i className="icon-arrow-top-right text-16 ml-10"></i>
+                <i className="text-16 icon-arrow-top-right ml-10"></i>
               </button>
-              <CommentBox />
+              <CommentBox /> */}
             </div>
 
             <div className="col-lg-4">
               <div className="d-flex justify-end js-pin-content">
-                <TourSingleSidebar />
+                {/* <TourSingleSidebar /> */}
               </div>
             </div>
           </div>
         </div>
       </section>
+      <TestimonialsThree />
     </>
   );
 }

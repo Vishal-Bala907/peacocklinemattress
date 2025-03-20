@@ -342,27 +342,27 @@ export const destinationsSeven = [
 export const destinationsEight = [
   {
     id: 1,
-    name: "Bali",
-    imgSrc: "/img/destinationCards/4/1.jpg",
-    tourCount: 100,
+    name: "Foam Mattress",
+    imgSrc: "/img/new/top1.jpeg",
+    tourCount: 10000,
   },
   {
     id: 2,
-    name: "Roma",
-    imgSrc: "/img/destinationCards/4/2.jpg",
-    tourCount: 100,
+    name: "Spring Mattress",
+    imgSrc: "/img/new/top2.jpeg",
+    tourCount: 4600,
   },
   {
     id: 3,
-    name: "Phuket",
-    imgSrc: "/img/destinationCards/4/3.jpg",
-    tourCount: 100,
+    name: "Pillows",
+    imgSrc: "/img/new/top3.jpeg",
+    tourCount: 2435,
   },
   {
     id: 4,
-    name: "Paris",
-    imgSrc: "/img/destinationCards/4/4.jpg",
-    tourCount: 100,
+    name: "Bedsheets",
+    imgSrc: "/img/new/top1.jpeg",
+    tourCount: 9856,
   },
 ];
 
