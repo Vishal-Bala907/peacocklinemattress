@@ -49,18 +49,17 @@ export default function FooterFour() {
 
                   <div className="y-gap-10 mt-20 text-white">
                     <a className="d-block" href="#">
-                      328 Queensberry Street, North Melbourne VIC3051,
-                      Australia.
+                      G-298, IPIA Bhamashamandi, Kota , Rajasthan
                     </a>
                     <a className="d-block" href="#">
-                      hi@viatours.com
+                      Shivanksolanki@gmail.com
                     </a>
                   </div>
                 </div>
 
                 <FooterLinksTwo />
 
-                <div className="col-lg-3 col-md-6">
+                {/* <div className="col-lg-3 col-md-6">
                   <h4 className="text-20 fw-500 text-white">Newsletter</h4>
                   <p className="text-white mt-20">
                     Subscribe to the free newsletter and stay up to date
@@ -89,7 +88,7 @@ export default function FooterFour() {
                       Android App
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -101,7 +100,9 @@ export default function FooterFour() {
           <div className="footer__bottom">
             <div className="row y-gap-5 justify-between items-center">
               <div className="col-auto text-white">
-                <div>© Copyright Viatours {new Date().getFullYear()}</div>
+                <div>
+                  © Copyright Peacock Line Mattress {new Date().getFullYear()}
+                </div>
               </div>
 
               <div className="col-auto">
