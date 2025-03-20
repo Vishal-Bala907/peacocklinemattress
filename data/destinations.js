@@ -276,33 +276,33 @@ export const destinationsFive = [
 export const destinationsSix = [
   {
     id: 1,
-    title: "Cruises",
-    imgSrc: "/img/features/1/1.png",
+    title: "Foam",
+    imgSrc: "/img/poplarthingstodo/1.png",
   },
   {
     id: 2,
-    title: "Beach Tours",
-    imgSrc: "/img/features/1/2.png",
+    title: "Bounded",
+    imgSrc: "/img/poplarthingstodo/2.png",
   },
   {
     id: 3,
-    title: "City Tours",
-    imgSrc: "/img/features/1/3.png",
+    title: "Spring Mattress",
+    imgSrc: "/img/poplarthingstodo/3.png",
   },
   {
     id: 4,
-    title: "Museum Tour",
-    imgSrc: "/img/features/1/4.png",
+    title: "Memory Foam",
+    imgSrc: "/img/poplarthingstodo/4.png",
   },
   {
     id: 5,
-    title: "Food",
-    imgSrc: "/img/features/1/5.png",
+    title: "Pillow",
+    imgSrc: "/img/poplarthingstodo/5.png",
   },
   {
     id: 6,
-    title: "Hiking",
-    imgSrc: "/img/features/1/6.png",
+    title: "bedsheet",
+    imgSrc: "/img/poplarthingstodo/6.png",
   },
 ];
 
