@@ -19,7 +19,7 @@ export default function Menu() {
                   ? "activeMenu"
                   : ""
               }
-              href="#"
+              href="/"
             >
               Home
             </a>
