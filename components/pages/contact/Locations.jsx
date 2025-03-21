@@ -1,28 +1,28 @@
 const locations = [
   {
     id: 1,
-    title: "North America",
-    address: "1 Dundas St W Suite 2500 Toronto ON M5G 1Z3, Canada",
-    contact: "1-800-453-6744 canada@tourz.com",
+    title: "Address",
+    address: "G 298 ,ipia Bhamashamandi,Kota, Rajasthan",
+    contact: "",
   },
   {
     id: 2,
-    title: "Australia",
-    address: "123 Smith St, Melbourne, VIC 3000, Australia",
-    contact: "61-800-123-456 australia@tourz.com",
+    title: "Contact ",
+    address: "+91 7014003729",
+    // contact: "+91 7014003729",
   },
   {
     id: 3,
-    title: "Europe",
-    address: "45 Rue du Faubourg Saint-Antoine, 75011 Paris, France",
-    contact: "33-800-987-654 europe@tourz.com",
+    title: "Mail",
+    address: "Shivanksolanki@gmail.com",
+    // contact: "33-800-987-654 europe@tourz.com",
   },
-  {
-    id: 4,
-    title: "Asia",
-    address: "Tokyo, Japan",
-    contact: "81-800-567-890 asia@tourz.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Asia",
+  //   address: "Tokyo, Japan",
+  //   contact: "81-800-567-890 asia@tourz.com",
+  // },
 ];
 
 export default function Locations() {

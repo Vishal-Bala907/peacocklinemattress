@@ -163,9 +163,9 @@ export default function Menu() {
             </div>
           </div>
 
-          {/* <div className="desktopNav__item">
+          <div className="desktopNav__item">
             <Link href="/contact">Contact</Link>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
