@@ -61,7 +61,8 @@ export default function ContactForm() {
                 </div>
                 <div className="col-12">
                   <textarea
-                    name="message"
+                    type="text"
+                    name="message_content"
                     placeholder="Message"
                     rows="6"
                     required
