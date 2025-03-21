@@ -46,19 +46,27 @@ export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
             className="menuNav js-navList -is-active"
             style={{ maxHeight: "calc(100vh - 262px)", overflowY: "auto" }}
           >
+            <li className="menuNav__item">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="menuNav__item">
+              <Link href="/tour-single-1/2">Pillows</Link>
+            </li>
+            <li className="menuNav__item">
+              <Link href="/tour-single-1/4">Bedsheets and Cushions</Link>
+            </li>
             {menuData.map((elm, i) => (
               <li key={i} className="menuNav__item -has-submenu js-has-submenu">
                 <a
                   onClick={() =>
-                    setActiveSub((pre) => (pre == elm.label ? "" : elm.label))
+                    setActiveSub((prev) =>
+                      prev === elm.label ? "" : elm.label
+                    )
                   }
                 >
                   <span
                     className={
-                      elm.submenu.some(
-                        (elm) =>
-                          elm.href.split("/")[1] == pathname?.split("/")[1],
-                      )
+                      elm.submenu.some((sub) => sub.href === pathname)
                         ? "activeMenu"
                         : ""
                     }
@@ -66,30 +74,27 @@ export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
                     {elm.label}
                   </span>
                   <i
-                    style={
-                      activeSub == elm.label
-                        ? { transform: "rotate(90deg)", transition: "0.3s" }
-                        : { transform: "rotate(0deg)", transition: "0.3s" }
-                    }
+                    style={{
+                      transform:
+                        activeSub === elm.label
+                          ? "rotate(90deg)"
+                          : "rotate(0deg)",
+                      transition: "0.3s",
+                    }}
                     className="icon-chevron-right"
                   ></i>
                 </a>
 
                 <ul
-                  style={
-                    activeSub == elm.label
-                      ? { maxHeight: "1200px", transition: "0.6s" }
-                      : { maxHeight: "0px", transition: "0.6s" }
-                  }
+                  style={{
+                    maxHeight: activeSub === elm.label ? "1200px" : "0px",
+                    transition: "0.6s",
+                  }}
                 >
                   {elm.submenu.map((elm2, i2) => (
                     <li key={i2} className="">
                       <Link
-                        className={
-                          pathname.split("/")[1] == elm2.href?.split("/")[1]
-                            ? "activeMenu"
-                            : ""
-                        }
+                        className={pathname === elm2.href ? "activeMenu" : ""}
                         style={{ paddingLeft: "15px", fontSize: "17px" }}
                         href={elm2.href}
                       >
@@ -112,7 +117,7 @@ export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
 
           <div className="text-20 lh-12 fw-500 mt-20">
             <div>Speak to our expert at</div>
-            <div className="text-accent-1">1-800-453-6744</div>
+            <div className="text-accent-1">+91 7014003729</div>
           </div>
 
           <div className="d-flex items-center x-gap-10 pt-30">
