@@ -19,7 +19,7 @@ export default function FooterFour() {
                   <div className="col-auto">
                     <div className="text-20 fw-500 text-white text-white">
                       Speak to our expert at
-                      <span className="text-white">1-800-453-6744</span>
+                      <span className="text-white"> +91 7014003729</span>
                     </div>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function FooterFour() {
                   </div>
                 </div>
 
-                <FooterLinksTwo />
+                {/* <FooterLinksTwo /> */}
 
                 {/* <div className="col-lg-3 col-md-6">
                   <h4 className="text-20 fw-500 text-white">Newsletter</h4>

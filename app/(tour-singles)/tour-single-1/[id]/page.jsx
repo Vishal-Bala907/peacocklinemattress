@@ -1,3 +1,4 @@
+import FooterFour from "@/components/layout/footers/FooterFour";
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Header1 from "@/components/layout/header/Header1";
 import Header3 from "@/components/layout/header/Header3";
@@ -25,7 +26,7 @@ export default function page({ params }) {
 
         <SingleOne tour={tour} id={id} />
         {/* <TourSlider /> */}
-        <FooterOne />
+        <FooterFour />
       </main>
     </>
   );
