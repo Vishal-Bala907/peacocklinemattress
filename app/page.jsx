@@ -2,8 +2,8 @@ import React from "react";
 import Firstpage from "./(homes)/home-4/page";
 
 export const metadata = {
-  title: "Home-1 || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

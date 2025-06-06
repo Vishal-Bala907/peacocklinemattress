@@ -4,8 +4,8 @@ import BookingPages from "@/components/pages/BookingPages";
 import React from "react";
 
 export const metadata = {
-  title: "Booking-page || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

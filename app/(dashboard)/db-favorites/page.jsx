@@ -2,8 +2,8 @@ import Favorites from "@/components/dasboard/Fevorite";
 import React from "react";
 
 export const metadata = {
-  title: "Dashboard-favorites || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

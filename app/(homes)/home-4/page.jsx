@@ -12,8 +12,8 @@ import Header3 from "@/components/layout/header/Header3";
 import React from "react";
 
 export const metadata = {
-  title: "peacock line mattress",
-  description: "peacock line mattress",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

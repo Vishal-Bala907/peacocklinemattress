@@ -12,8 +12,8 @@ import Team from "@/components/pages/about/Team";
 import React from "react";
 
 export const metadata = {
-  title: "About || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

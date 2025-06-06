@@ -5,8 +5,8 @@ import PageHeader from "@/components/pages/uiElements/PageHeader";
 import React from "react";
 
 export const metadata = {
-  title: "UI-elements || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

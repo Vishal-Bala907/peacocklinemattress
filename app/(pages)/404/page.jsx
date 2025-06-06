@@ -3,8 +3,8 @@ import Header1 from "@/components/layout/header/Header1";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Not found || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function NotFound() {

@@ -2,8 +2,8 @@ import DbBooking from "@/components/dasboard/DbBooking";
 import React from "react";
 
 export const metadata = {
-  title: "Dashboard-booking || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {

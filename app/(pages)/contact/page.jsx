@@ -6,8 +6,8 @@ import Map from "@/components/pages/contact/Map";
 import React from "react";
 
 export const metadata = {
-  title: "Contact || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Peacockline mattress",
+  description: "Peacockline mattress",
 };
 
 export default function page() {
